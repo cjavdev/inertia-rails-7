@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { useForm } from '@inertiajs/inertia-react'
+import { useForm } from '@inertiajs/react'
 
 export default function MyForm() {
   const {data, setData, post, processing, errors, reset} = useForm({
