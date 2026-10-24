@@ -1,6 +1,6 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client';
-import { createInertiaApp } from '@inertiajs/inertia-react'
+import { createInertiaApp } from '@inertiajs/react'
 import Layout from './Layout.jsx';
 
 const pages = import.meta.glob('../pages/**/*.jsx')
